@@ -1,0 +1,19 @@
+<!-- <div *ngIf="flight"> -->
+<form [formGroup]="flightSearchForm" (ngSubmit)="search($event)">
+  <h2>Enter your flight details:</h2>
+  <div>
+    <label>Travel From: </label><br />
+     <input formControlName="departure" type="string" placeholder="Departure City"/>
+  </div>
+  <div>
+    <label>Destination: </label><br />
+     <input formControlName="destination" type="string" placeholder="Destination City"/>
+   </div>
+   <div>
+     <label>Travel date: </label><br />
+      <input formControlName="date" type="date" placeholder="Departure Date"/>
+    </div>
+  <!-- <button (click)="serach()">Search</button> -->
+  <button type="submit">Search</button>
+</form>
+<!-- </div> -->

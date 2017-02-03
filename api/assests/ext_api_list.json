@@ -1,0 +1,35 @@
+[
+      {
+      "api_id": 0,
+      "api_url": "https://peaceful-gorge-55324.herokuapp.com/",
+      "destination": "destination",
+      "departure": "departure",
+      "date": "departure-date",
+      "post_flight": "flight",
+      "post_creditcard"  : "cc",
+      "post_date": "date",
+      "version": "0.0.1"
+      },
+      {
+      "api_id": 1,
+      "api_url": "https://immense-headland-94059.herokuapp.com",
+      "destination": "to",
+      "departure": "from",
+      "date": "dep",
+      "post_flight": "flight",
+      "post_creditcard"  : "cc",
+      "post_date": "date",
+      "version": "v3"
+      },
+      {
+      "api_id": 2,
+      "api_url": "https://immense-headland-94059.herokuapp.com",
+      "destination": "to",
+      "departure": "from",
+      "date": "departure-date",
+      "post_flight": "flightNum",
+      "post_creditcard"  : "credit",
+      "post_date": "date",
+      "version": "v4"
+      }
+]

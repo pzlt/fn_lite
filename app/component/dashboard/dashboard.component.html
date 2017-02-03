@@ -1,0 +1,8 @@
+<h3>Last Top Flight Results From</h3>
+<div class="grid grid-pad">
+  <a *ngFor="let flight of flights"  [routerLink]="['/detail', flight.id]"  class="col-1-4">
+    <div class="module flight">
+      <h4>{{flight.from}}</h4>
+    </div>
+  </a>
+</div>
